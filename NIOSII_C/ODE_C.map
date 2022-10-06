@@ -1,0 +1,509 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+                              obj/default/ODE_Solver_SW.o (alt_getchar)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o (alt_load)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o (alt_main)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+                              obj/default/ODE_Solver_SW.o (alt_putstr)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o) (alt_irq_init)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o) (altera_avalon_jtag_uart_read)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o) (altera_avalon_jtag_uart_write)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o) (alt_fd_list)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o) (strlen)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000004000 0x0000000000000020
+onchip_memory    0x0000000000004020 0x0000000000003fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+LOAD obj/default/ODE_Solver_SW.o
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/mno-hw-mul\libgcc.a
+START GROUP
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/mno-hw-mul\libgcc.a
+LOAD D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/mno-hw-mul\libgcc.a
+                0x0000000000004000                __alt_mem_onchip_memory = 0x4000
+
+.entry          0x0000000000004000       0x20
+ *(.entry)
+ .entry         0x0000000000004000       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+                0x0000000000004000                __reset
+                0x000000000000400c                _exit
+
+.exceptions     0x0000000000004020        0x0
+                0x0000000000004020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000004020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000004020                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000004020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000004020      0x31c
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000004020       0x3c D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+                0x0000000000004020                _start
+ .text          0x000000000000405c        0x0 obj/default/ODE_Solver_SW.o
+ .text.startup  0x000000000000405c       0xa8 obj/default/ODE_Solver_SW.o
+                0x000000000000405c                main
+ .text          0x0000000000004104       0x40 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+                0x0000000000004104                alt_getchar
+ .text          0x0000000000004144       0xb4 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+                0x0000000000004144                alt_load
+ .text          0x00000000000041f8       0x2c D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+                0x00000000000041f8                alt_main
+ .text          0x0000000000004224       0x38 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+                0x0000000000004224                alt_putstr
+ .text          0x000000000000425c       0x24 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+                0x000000000000425c                alt_irq_init
+                0x000000000000427c                alt_sys_init
+ .text          0x0000000000004280       0x58 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000004280                altera_avalon_jtag_uart_read
+ .text          0x00000000000042d8       0x30 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000042d8                altera_avalon_jtag_uart_write
+ .text          0x0000000000004308        0x4 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000004308                alt_dcache_flush_all
+ .text          0x000000000000430c        0x8 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .text          0x0000000000004314        0x4 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000004314                alt_icache_flush_all
+ .text          0x0000000000004318        0x8 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000004318                altera_nios2_gen2_irq_init
+ .text          0x0000000000004320        0x0 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000004320       0x1c d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x0000000000004320                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000000433c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x000000000000433c                . = ALIGN (0x4)
+
+.rodata         0x000000000000433c       0x4c
+                0x000000000000433c                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x000000000000433c                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000000433c       0x3d obj/default/ODE_Solver_SW.o
+ *fill*         0x0000000000004379        0x3 
+ .rodata.str1.4
+                0x000000000000437c        0xc D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+                                          0xa (size before relaxing)
+ *(.rodata1)
+                0x0000000000004388                . = ALIGN (0x4)
+                0x0000000000004388                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x000000000000433c                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x0000000000004388       0x70 load address 0x00000000000043f8
+                0x0000000000004388                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x0000000000004388                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .data          0x0000000000004388        0x0 obj/default/ODE_Solver_SW.o
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000004388        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000004388       0x58 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+                0x0000000000004388                alt_fd_list
+                0x00000000000043b8                alt_dev_null
+ .data          0x00000000000043e0        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00000000000043e0        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00000000000043e0        0x0 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x000000000000c3e0                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00000000000043e0        0x4 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+                0x00000000000043e0                jtag_uart
+ .sdata         0x00000000000043e4       0x14 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+                0x00000000000043e4                alt_max_fd
+                0x00000000000043e8                alt_dev_list
+                0x00000000000043f0                alt_fs_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00000000000043f8                . = ALIGN (0x4)
+                0x00000000000043f8                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x00000000000043f8                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x00000000000043f8                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000000000004468        0xc
+                0x0000000000004468                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000004468        0xc D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+                0x0000000000004468                alt_envp
+                0x000000000000446c                alt_argv
+                0x0000000000004470                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .bss           0x0000000000004474        0x0 obj/default/ODE_Solver_SW.o
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000004474        0x0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000004474        0x0 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ *(COMMON)
+                0x0000000000004474                . = ALIGN (0x4)
+                0x0000000000004474                __bss_end = ABSOLUTE (.)
+
+.onchip_memory  0x0000000000004474        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_start = ABSOLUTE (.))
+ *(.onchip_memory .onchip_memory. onchip_memory.*)
+                0x0000000000004474                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_end = ABSOLUTE (.))
+                0x0000000000004474                _end = ABSOLUTE (.)
+                0x0000000000004474                end = ABSOLUTE (.)
+                0x0000000000004474                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_load_addr = LOADADDR (.onchip_memory))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c obj/default/ODE_Solver_SW.o
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002c       0x2d D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002c       0x2d d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/ODE_Solver_SW.o
+ .debug_aranges
+                0x0000000000000048       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .debug_aranges
+                0x0000000000000068       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000088       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000108       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000128       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000148       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000168       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000188       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x8128
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022       0xf6 obj/default/ODE_Solver_SW.o
+ .debug_info    0x0000000000000118      0xc32 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .debug_info    0x0000000000000d4a      0xaed D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000001837      0xeb0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000000000026e7      0x9c3 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .debug_info    0x00000000000030aa      0xa62 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000003b0c      0xad9 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00000000000045e5      0xaab D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000005090      0x934 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00000000000059c4      0xe92 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000006856      0x934 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000718a      0x955 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000007adf      0x649 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x0000000000000000     0x1a80
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0xa0 obj/default/ODE_Solver_SW.o
+ .debug_abbrev  0x00000000000000b2      0x23b D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .debug_abbrev  0x00000000000002ed      0x277 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000564      0x252 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000007b6      0x249 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .debug_abbrev  0x00000000000009ff      0x279 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000c78      0x258 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000000ed0      0x251 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000001121      0x1e0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001301      0x212 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001513      0x1e0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000000000016f3      0x1e5 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x00000000000018d8      0x1a8 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_line     0x0000000000000000     0x1832
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066      0x121 obj/default/ODE_Solver_SW.o
+ .debug_line    0x0000000000000187      0x1a6 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .debug_line    0x000000000000032d      0x237 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000564      0x2d9 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000000000000083d      0x16c D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .debug_line    0x00000000000009a9      0x1db D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000b84      0x269 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000000ded      0x21f D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000000000000100c      0x15b D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001167      0x256 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00000000000013bd      0x159 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000001516      0x122 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001638      0x1fa d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_frame    0x0000000000000000      0x208
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x30 obj/default/ODE_Solver_SW.o
+ .debug_frame   0x0000000000000030       0x30 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+ .debug_frame   0x0000000000000060       0x30 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000090       0x2c D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000000bc       0x30 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .debug_frame   0x00000000000000ec       0x3c D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000128       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000148       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000168       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000188       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000000000001a8       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000000000001c8       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x00000000000001e8       0x20 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_str      0x0000000000000000      0xc03
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x51 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000051       0xff obj/default/ODE_Solver_SW.o
+                                        0x136 (size before relaxing)
+ .debug_str     0x0000000000000150      0x4bb D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_getchar.o)
+                                        0x659 (size before relaxing)
+ .debug_str     0x000000000000060b      0x125 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+                                        0x61e (size before relaxing)
+ .debug_str     0x0000000000000730      0x191 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_main.o)
+                                        0x7d0 (size before relaxing)
+ .debug_str     0x00000000000008c1       0x3a D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+                                        0x568 (size before relaxing)
+ .debug_str     0x00000000000008fb       0x90 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+                                        0x615 (size before relaxing)
+ .debug_str     0x000000000000098b       0x38 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x62c (size before relaxing)
+ .debug_str     0x00000000000009c3       0x2c D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x622 (size before relaxing)
+ .debug_str     0x00000000000009ef       0x1f D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x537 (size before relaxing)
+ .debug_str     0x0000000000000a0e       0x32 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_dev.o)
+                                        0x795 (size before relaxing)
+ .debug_str     0x0000000000000a40       0x1f D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x537 (size before relaxing)
+ .debug_str     0x0000000000000a5f       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x54b (size before relaxing)
+ .debug_str     0x0000000000000a7f      0x184 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x4d1 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x2e6
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x15 obj/default/ODE_Solver_SW.o
+ .debug_loc     0x0000000000000015       0x66 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x000000000000007b       0x3f D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_putstr.o)
+ .debug_loc     0x00000000000000ba       0x25 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000000000000df      0x130 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x000000000000020f       0x93 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x00000000000002a2       0x44 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+                0x0000000000008000                __alt_data_end = 0x8000
+                0x0000000000008000                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x8000)
+OUTPUT(ODE_C.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x100
+ .debug_ranges  0x0000000000000000       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp/obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/ODE_Solver_SW.o
+ .debug_ranges  0x0000000000000030       0xa0 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x00000000000000d0       0x20 D:/PROJECTS/ODE_solver/NIOSII-C/software/ODE_C_bsp\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x00000000000000f0       0x10 d:/quartus/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/9.2.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
