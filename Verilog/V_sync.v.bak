@@ -1,0 +1,28 @@
+module V_sync (
+  input  clk,         // clk = H_sync
+  output pulse,
+  output reg [9:0] line   // 0 -> 628
+);
+
+
+always @( posedge clk) begin
+    if (line < 806)
+        line <= line + 1 ;
+    else
+        line  <= 0 ;       
+end
+always @(posedge clk) begin
+    if (pixel == 1024+24)
+        pulse <= 1'b1;
+    else if (pixel == 1340-160)
+        pulse <= 1'b0;
+
+	if (pixel == 1024)
+        display <= 1'b0;
+    else if (pixel == 0)
+        display <= 1'b1;	  
+end
+
+assign pulse = (line > (601) && line <= 605) ; 
+
+endmodule //V_sync

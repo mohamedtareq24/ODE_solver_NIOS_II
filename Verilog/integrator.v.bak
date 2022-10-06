@@ -1,0 +1,20 @@
+module integrator
+// sample time 
+ (
+    input  clk , rst,
+    input signed [WIDTH-1:0] dy,
+    input signed [WIDTH-1:0] initial_condition,
+    output reg signed[WIDTH-1:0] y  
+); 
+parameter  WIDTH  = 18,DELTA = 4;
+always @(posedge clk ) begin
+    if (rst)
+        y <= initial_condition;
+    else
+        y <=  y + (dy >>> DELTA)  ; 
+end
+initial
+begin
+    y = 0;
+end
+endmodule //integrator

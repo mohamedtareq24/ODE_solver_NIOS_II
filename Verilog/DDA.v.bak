@@ -1,0 +1,11 @@
+module DDA (
+    parameter  WIDTH  = 18;
+    input clk,rst,
+    input signed [WIDTH-1:0] initial_condition_x,initial_condition_v,B,k,
+    output signed [WIDTH-1:0] x);
+    wire [WIDTH-1:0] v,ddy  ;
+    integrator velocity (clk,rst,ddy,initial_condition_v,v);
+    integrator dispalacment (clk,rst,v,initial_condition_x,x); 
+	//assign ddy  = 18'hFFFFF * k * x - (B) * v ; 
+    assign ddy =  -1 * x ;
+endmodule //DDA 

@@ -1,0 +1,11 @@
+module DDA_top (
+    input  clk50,NIOS_reset, 
+    output [8:0] x_shift 
+);
+wire clk0_020,clk_en,solver_rst;
+wire [17:0] x,v,b,k;
+PLL pll(clk50,clk0_020);
+NIOSII_JTAG_IO U0 (b,clk50,,clk_en,k,NIOS_reset,solver_rst,v,x);
+DDA U1 (clk_en,rst,clk0_020,x,v,b,k,x_shift);
+
+endmodule //DDA_top
