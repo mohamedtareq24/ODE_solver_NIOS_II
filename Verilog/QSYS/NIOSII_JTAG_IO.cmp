@@ -1,0 +1,13 @@
+	component NIOSII_JTAG_IO is
+		port (
+			b_external_connection_export      : out std_logic_vector(17 downto 0);        -- export
+			clk_clk                           : in  std_logic                     := 'X'; -- clk
+			clk_en_external_connection_export : out std_logic;                            -- export
+			k_external_connection_export      : out std_logic_vector(17 downto 0);        -- export
+			reset_reset_n                     : in  std_logic                     := 'X'; -- reset_n
+			rst_external_connection_export    : out std_logic;                            -- export
+			v_external_connection_export      : out std_logic_vector(17 downto 0);        -- export
+			x_external_connection_export      : out std_logic_vector(17 downto 0)         -- export
+		);
+	end component NIOSII_JTAG_IO;
+
